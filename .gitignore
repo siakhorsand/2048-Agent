@@ -1,0 +1,51 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb
+
+# Pygame temporary files
+*.png
+*.gif
+
+# Logs
+*.log
+
+# Output directories
+results/
+*.csv
+*.txt
+
+# IDE specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Other system files
+Thumbs.db
+
+# Keep these important files
+!README.md
+LIVE_GAMEPLAY_README.md
+RL_AGENT_README.md
+!requirements.txt
+!setup.sh
+!create_notebook.sh
+!fix_notebook.py
+!game.py
+!src/
+2048_RL_Agent_PyTorch.ipynb
+!2048_RL_Agent.ipynb

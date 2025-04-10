@@ -1,1 +1,17 @@
-pygame==2.5.2 
+pygame==2.5.2
+numpy==1.23.5
+matplotlib==3.7.1
+pandas==2.0.0
+
+# For most systems, use standard TensorFlow:
+tensorflow==2.13.0
+
+# For Apple Silicon Macs (M1/M2), uncomment this instead:
+tensorflow-macos==2.13.0
+
+# If you're on Windows and need GPU support:
+# tensorflow-gpu==2.13.0
+
+# Alternatively, you can use PyTorch instead of TensorFlow:
+# torch==2.0.1
+# torchvision==0.15.2 
